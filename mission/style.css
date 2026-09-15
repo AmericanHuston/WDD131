@@ -1,0 +1,40 @@
+div {
+    max-width: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div * {
+    margin-top: 20px;
+}
+
+div *:not(h1, h4) {
+    text-align: left;
+}
+
+h1, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4 {
+    color: #2B71B9;
+    font-size: smaller;
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: center;
+}
+
+#list-intro {
+    font-style: italic;
+}
+
+li {
+    list-style: decimal;
+    margin-left: 40px;
+}
+
+img {
+    max-width: 150px;
+}
